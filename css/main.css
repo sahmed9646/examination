@@ -1,0 +1,204 @@
+ *{margin:0;padding:0;outline:none}
+ body{font-family:verdana;background: #999;}
+ .phpcoding{width:cover; margin: 0;background:#272822}
+ .headeroption {
+ /* background: #444 url("../img/banner.png") no-repeat scroll 0 0; 
+  border-bottom: 2px solid #444444;
+  height: 100px;*/
+}
+.footeroption{background:#444;color:#fff;text-align:center;padding:20px;}
+ .headeroption h2, .footeroption h2{margin:0;font-size:24px; color: #fff;}
+.maincontent {
+  font-size: 18px;
+  width: 100%;
+  padding: 20px;
+}
+ p{margin:0}
+input[type="text"], input[type="password"] {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 238px;
+  background: #ddd;
+}
+input[type="email"] {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 238px;
+  background: #ddd;
+}
+
+input[type="submit"] {
+  
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 100px;
+  background: #bbb; 
+  margin: 5px 10px;
+}
+ .tblone{width:100%;border:1px solid #fff;margin:20px 0}
+ .tblone td{padding:5px 10px;text-align:center;}
+ table.tblone tr:nth-child(2n+1){background:#fff;height:30px;}
+ table.tblone tr:nth-child(2n){background:#f1f1f1;height:30px;}
+.tbl td{
+  color: #fff;
+  
+}
+.main {
+  background: #2142C2 none repeat scroll 0 0;
+  border: 1px solid #999;
+  margin-top: 10px;
+  min-height: 440px;
+  padding: 15px;
+  width: 828px;
+}
+.main h1 {
+  box-shadow: 2px 2px 0 1px #999;
+  color: #fff;
+  margin: 10px auto 25px;
+  padding: 4px;
+  text-align: center;
+  width: 620px;
+}
+.menu{overflow:hidden;background:#444; padding: 10px; margin-top: -10px;}
+.menu ul{list-style:none; float: right; margin-top: 5px;margin-right: 240px;}
+.menu ul li{display:block; float:left; background: #2142C2; margin-left: 10px;}
+.menu ul li a {
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  margin: 0 5px 5px;
+  padding: 1px 10px 3px;
+  text-decoration: none; 
+  
+}
+.menu ul li a:hover{border:1px solid #fff;color: #fff;}
+.segmentimage img{
+  margin: 40px auto -30px;
+}
+.start ul li a{
+  background: #ddd;
+  color: #000;
+  cursor: pointer;
+  margin: 0 0 0 -55px;
+  padding: 0;
+}
+.segmentfirst {
+  margin-top: 70px;
+  min-height: 400px;
+  padding: 20px;
+  width: 500px;
+  color: #fff;
+}
+.segmentfirst img {
+  height: 200px;
+  margin-left: 80px;
+  padding-top: 12px;
+}
+.segmentfirst h2 {
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.segmentfirst p{
+  margin-left: 55px;
+}
+.segmentfirst a{color: #fff;text-decoration:underline}
+.segmentfirst a:hover{text-decoration:none}
+.segmentfirst ul {
+  list-style: outside none none;
+  margin: 0 0 0 70px;
+  padding: 0;
+}
+.segmentfirst ul  li{}
+.segmentfirst ul li a {
+  color: #3399ff;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+.segmentfirst ul  li a:hover{border: 1px solid #999; color: #999;}
+.profile{
+    width: 540px;
+    margin: 0 auto;
+    padding: 30px 50px 50px;
+    border: 1px solid #888;
+  }
+#msg{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.test {
+  border: 1px solid #f3f3f3;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+.test tr td{
+  color: #ccc;
+}
+
+.test input[type="radio"] {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+.test h3 {
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: #eee;
+}
+.error, .empty, .disable{
+  color: red;
+}
+.success{
+  color: green;
+}
+.starttest{
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+.starttest h2{
+  margin: 20px auto;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+}
+.starttest p, ul{
+  color: #ddd;
+}
+.starttest ul{margin:0; padding: 0;list-style: none;}
+.starttest ul li{}
+.starttest ul li a{
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: none;
+  background: #ddd;
+  border:1px solid #000;
+  text-align: center;
+  display: block;
+}
+.starttest ul li a:hover{}
+
+.starttest a{
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: none;
+  background: #ddd;
+  border:1px solid #000;
+  text-align: center;
+  display: block;
+}
